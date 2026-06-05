@@ -23,3 +23,8 @@
 2026-06-04|https://www.cryptotimes.io/2026/06/02/stocks-meet-solana-backpack-unveils-new-trading-bridge/
 2026-06-04|https://unchainedcrypto.com/cftc-opens-us-crypto-perpetuals-door-with-first-approvals-at-kalshi-and-coinbase/
 2026-06-04|https://cryptobriefing.com/solana-token-unlocks-june-2026/
+2026-06-05|https://cryptobriefing.com/bitcoin-falls-below-64000-triggers-11b-in-liquidations/
+2026-06-05|https://coinmarketcap.com/academy/article/cftc-clears-bitcoin-perpetual-futures
+2026-06-05|https://cryptorank.io/news/feed/9b546-rwa-tokenization-defi-composability-gap
+2026-06-05|https://coinpedia.org/news/ethereum-outlines-2026-glamsterdam-hardfork-eth-still-below-2k/
+2026-06-05|https://home.treasury.gov/news/press-releases/sb0435
