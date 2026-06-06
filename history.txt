@@ -28,3 +28,8 @@
 2026-06-05|https://cryptorank.io/news/feed/9b546-rwa-tokenization-defi-composability-gap
 2026-06-05|https://coinpedia.org/news/ethereum-outlines-2026-glamsterdam-hardfork-eth-still-below-2k/
 2026-06-05|https://home.treasury.gov/news/press-releases/sb0435
+2026-06-06|https://www.nikkei.com/article/DGXZQOGN05CNJ0V00C26A6000000/
+2026-06-06|https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-june-5-2026-prices-continue-their-descent---5-reasons-why-113631165.html
+2026-06-06|https://www.coindesk.com/markets/2026/06/01/aave-overhauls-listing-standards-after-usd230-million-rseth-exploit-exposed-bridge-risks
+2026-06-06|https://cryptorank.io/news/feed/644b8-clarity-act-enters-critical-phase-as-senate-eyes-june-action
+2026-06-06|https://www.coindesk.com/business/2026/05/31/how-stellar-became-part-of-dtcc-s-tokenization-push-for-wall-street-securities-onchain
