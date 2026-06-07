@@ -33,3 +33,8 @@
 2026-06-06|https://www.coindesk.com/markets/2026/06/01/aave-overhauls-listing-standards-after-usd230-million-rseth-exploit-exposed-bridge-risks
 2026-06-06|https://cryptorank.io/news/feed/644b8-clarity-act-enters-critical-phase-as-senate-eyes-june-action
 2026-06-06|https://www.coindesk.com/business/2026/05/31/how-stellar-became-part-of-dtcc-s-tokenization-push-for-wall-street-securities-onchain
+2026-06-07|https://cc.minkabu.jp/column/5146
+2026-06-07|https://cryptorank.io/news/feed/f5ba9-solana-price-prediction-june-2026-solanas-strongest-week-on-record-meets-its-last-channel-support
+2026-06-07|https://finance.biggo.com/news/tI_sLJ4BrAZSr0oSrqvF
+2026-06-07|https://www.coindesk.com/markets/2026/06/05/jpmorgan-bank-of-america-and-citi-are-going-on-the-blockchain-offensive-with-a-shared-tokenized-network
+2026-06-07|https://cryptobriefing.com/near-protocol-dynamic-resharding-token-surges/
