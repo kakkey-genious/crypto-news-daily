@@ -38,3 +38,8 @@
 2026-06-07|https://finance.biggo.com/news/tI_sLJ4BrAZSr0oSrqvF
 2026-06-07|https://www.coindesk.com/markets/2026/06/05/jpmorgan-bank-of-america-and-citi-are-going-on-the-blockchain-offensive-with-a-shared-tokenized-network
 2026-06-07|https://cryptobriefing.com/near-protocol-dynamic-resharding-token-surges/
+2026-06-08|https://bitcoinfoundation.org/news/crypto-etfs-news/etf-outflows-june-first-week/
+2026-06-08|https://cryptobriefing.com/house-ways-means-digital-asset-tax-bills/
+2026-06-08|https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain
+2026-06-08|https://finance.yahoo.com/markets/stocks/articles/hut-8-bond-sale-raises-135700968.html
+2026-06-08|https://news.bitcoin.com/solana-posts-8-consecutive-red-months-for-first-time-as-traders-watch-80-support/
