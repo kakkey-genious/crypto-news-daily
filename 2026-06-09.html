@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>仮想通貨ニュース 2026-06-09 | Crypto News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 2.5rem 1rem 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; }
+    header .date {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.75);
+      letter-spacing: 0.5px;
+    }
+    header .back-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: rgba(255,255,255,0.8);
+      text-decoration: none;
+      font-size: 0.875rem;
+      border: 1px solid rgba(255,255,255,0.3);
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      transition: background 0.2s;
+    }
+    header .back-link:hover { background: rgba(255,255,255,0.15); }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .news-count {
+      color: var(--subtext);
+      font-size: 0.875rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+    .card-number {
+      background: var(--header-bg);
+      color: #fff;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+    .card-meta .source::before { content: "📰 "; }
+    .card-meta .pub-date::before { content: "📅 "; }
+
+    .tag {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .tag-market  { background: #3b82f6; }
+    .tag-defi    { background: #8b5cf6; }
+    .tag-reg     { background: #ef4444; }
+    .tag-tech    { background: #10b981; }
+
+    .card-summary {
+      font-size: 0.9rem;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      line-height: 1.7;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      background: var(--bg);
+      border-left: 3px solid var(--border);
+      padding: 0.5rem 0.75rem;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-link a {
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 0.85rem;
+      word-break: break-all;
+    }
+    .card-link a:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--subtext);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+    footer strong { color: var(--text); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💰 今日の仮想通貨ニュース</h1>
+  <p class="date">2026年6月9日（火）</p>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+</header>
+
+<main>
+  <p class="news-count">本日のピックアップ: 5件</p>
+
+  <!-- Article 1 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title">ビットコイン、$59K台から$63K超へ急反発 — 複合的売り要因後の安堵感で値上がり</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">CryptoTimes</span>
+      <span class="pub-date">2026-06-08</span>
+      <span class="tag tag-market">相場動向</span>
+    </div>
+    <p class="card-summary">
+      ビットコインは$59,000台の直近安値から$63,000超まで急激に反発した。MicroStrategyによる32BTCの初売却、米現物ETFの13日連続資金流出、Mt.Gox関連ウォレットの移動など複数のネガティブ要因が重なった後、売られ過ぎとなったポジションの巻き戻しと押し目買いが相場を押し上げた。テクニカル的には$65,000が直近の抵抗水準として注目される。
+    </p>
+    <div class="card-reason">💡 選定理由: 直近の相場急変動を示す最重要記事。$59K→$63Kの急反発は投資判断に直結する。</div>
+    <div class="card-link">🔗 <a href="https://www.cryptotimes.io/2026/06/08/bitcoin-stages-sharp-relief-rally-amid-brutal-correction-from-59k-lows-to-63k-bounce/" target="_blank" rel="noopener">元記事を読む → CryptoTimes</a></div>
+  </div>
+
+  <!-- Article 2 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title">米ビットコインETF、13日連続の資金流出で総額$43億超 — ETF開始以来の過去最長記録を更新</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">BeInCrypto</span>
+      <span class="pub-date">2026-06-08</span>
+      <span class="tag tag-market">相場動向</span>
+    </div>
+    <p class="card-summary">
+      米国の現物ビットコインETFが5月15日〜6月3日にかけて13日連続で純資金流出を記録、総額$43億・59,351BTCが引き出されETF開始以来最長の連続流出ストリークとなった。ブラックロックのIBITだけで約$33億が流出した。FRBの利下げ期待後退や米イラン緊張など地政学的リスク、AI関連株への資金シフトが機関投資家の撤退を招いた模様。
+    </p>
+    <div class="card-reason">💡 選定理由: 機関投資家の動向を示す重要指標。記録的なETF流出は相場下落の主因として必読。</div>
+    <div class="card-link">🔗 <a href="https://beincrypto.com/bitcoin-etf-outflows-record-streak-june-2026/" target="_blank" rel="noopener">元記事を読む → BeInCrypto</a></div>
+  </div>
+
+  <!-- Article 3 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title">CLARITYアクト：Coinbase・Rippleら200社超が米上院に本会議採決を緊急要請</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">CoinGape</span>
+      <span class="pub-date">2026-06-08</span>
+      <span class="tag tag-reg">規制・政策</span>
+    </div>
+    <p class="card-summary">
+      デジタル資産市場構造法案「CLARITYアクト」が上院銀行委員会を通過したのを受け、CoinbaseやRippleを含む200社超の暗号資産企業・業界団体が連名で上院指導部に本会議採決の実施を要請する書簡を提出した。法案は8月の夏季休暇前に成立できなければ審議が秋以降にずれ込む可能性があり、業界は一丸となってラスト5ヤードのロビー活動を展開している。
+    </p>
+    <div class="card-reason">💡 選定理由: 米国の仮想通貨規制整備の最重要局面。CLARITYアクトの行方は業界全体に多大な影響を与える。</div>
+    <div class="card-link">🔗 <a href="https://coingape.com/clarity-act-ripple-coinbase-over-crypto-firms-push-senate-floor-vote/" target="_blank" rel="noopener">元記事を読む → CoinGape</a></div>
+  </div>
+
+  <!-- Article 4 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title">ETHConf 2026 NYC開幕 — イーサリアム史上最大規模カンファレンスに5,000人超が集結</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">TheChainPost</span>
+      <span class="pub-date">2026-06-08</span>
+      <span class="tag tag-tech">新技術</span>
+    </div>
+    <p class="card-summary">
+      ETHGlobal主催のETHConf 2026がニューヨーク・ジャビッツセンターで6月8〜10日に開幕した。5,000人超の参加者と150人超の登壇者が集まり、機関投資家向けイーサリアムの将来像、トークン化国債・RWA、ステーブルコイン規制、レイヤー2インフラ、オンチェーンKYCなどをテーマに議論。GlamsterdamアップグレードやAave V4などの最新動向も共有される。
+    </p>
+    <div class="card-reason">💡 選定理由: イーサリアム開発者・機関投資家が一堂に会する年最大の会議。次世代の方向性を示す重要イベント。</div>
+    <div class="card-link">🔗 <a href="https://www.thechainpost.com/news/ethconf-returns-to-new-york-city-june-810-with-5000-attendees-and-150-speakers-e205de" target="_blank" rel="noopener">元記事を読む → TheChainPost</a></div>
+  </div>
+
+  <!-- Article 5 -->
+  <div class="card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title">メルカリ×コインチェック連携スタート — シバイヌ・ドージなど12銘柄追加で計15種が取引可能に</div>
+    </div>
+    <div class="card-meta">
+      <span class="source">Impress Watch（Crypto Watch）</span>
+      <span class="pub-date">2026-06-08</span>
+      <span class="tag tag-defi">DeFi/Web3</span>
+    </div>
+    <p class="card-summary">
+      メルコイン社が6月8日より、メルカリアプリ上でコインチェックとの業務提携に基づく追加12銘柄の取引サービスを開始した。シバイヌコイン・ドージコインなどを加えて取引可能銘柄は計15種に拡大。メルカリの国内月間利用者数を踏まえると、仮想通貨取引の大衆化を促進する取り組みとして業界の注目を集めている。
+    </p>
+    <div class="card-reason">💡 選定理由: 日本国内での仮想通貨普及を示す重要なビジネスニュース。メルカリ経由の新規ユーザー獲得に注目。</div>
+    <div class="card-link">🔗 <a href="https://www.watch.impress.co.jp/docs/news/2115199.html" target="_blank" rel="noopener">元記事を読む → Impress Watch</a></div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Crypto News Daily &middot; Generated by Claude &middot; <strong>kakkey-genious</strong></p>
+  <p style="margin-top:0.25rem; font-size:0.75rem;">本ページの情報は自動収集・要約されたものです。投資判断は自己責任でお願いします。</p>
+</footer>
+
+</body>
+</html>

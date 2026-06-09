@@ -1,13 +1,3 @@
-2026-06-01|https://beincrypto.com/bitcoin-price-prediction-june-2026/
-2026-06-01|https://www.dlnews.com/articles/regulation/key-dates-for-us-crypto-regulation-in-2026/
-2026-06-01|https://thedefiant.io/news/blockchains/glamsterdam-upgrade-set-to-triple-ethereum-s-execution-capacity
-2026-06-01|https://financefeeds.com/defi-regulation-2026-inside-the-secs-reg-crypto-framework/
-2026-06-01|https://www.mexc.com/news/1095498
-2026-06-01|https://kabushiki.jp/news/752879
-2026-06-01|https://bitcoinmagazine.com/news/senate-banking-committee-crypto-bill
-2026-06-01|https://coinmarketcap.com/academy/article/ethereum-glamsterdam-upgrade-pushed-q3
-2026-06-01|https://beincrypto.com/the-rwa-war-stablecoins-speed-and-control/
-2026-06-01|https://www.coindeskjapan.com/323959/
 2026-06-03|https://99bitcoins.com/news/bitcoin-btc/bitcoin-etf-10-day-outflow-streak/
 2026-06-03|https://www.banklesstimes.com/articles/2026/06/01/hyperliquid-is-slowly-taking-over-ethereum-and-solana-key-metrics-reveal/
 2026-06-03|https://www.banklesstimes.com/articles/2026/06/01/web3-is-dead-multicoins-kyle-samani-says-only-defi-and-depin-still-matter/
@@ -43,3 +33,8 @@
 2026-06-08|https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain
 2026-06-08|https://finance.yahoo.com/markets/stocks/articles/hut-8-bond-sale-raises-135700968.html
 2026-06-08|https://news.bitcoin.com/solana-posts-8-consecutive-red-months-for-first-time-as-traders-watch-80-support/
+2026-06-09|https://www.cryptotimes.io/2026/06/08/bitcoin-stages-sharp-relief-rally-amid-brutal-correction-from-59k-lows-to-63k-bounce/
+2026-06-09|https://beincrypto.com/bitcoin-etf-outflows-record-streak-june-2026/
+2026-06-09|https://coingape.com/clarity-act-ripple-coinbase-over-crypto-firms-push-senate-floor-vote/
+2026-06-09|https://www.thechainpost.com/news/ethconf-returns-to-new-york-city-june-810-with-5000-attendees-and-150-speakers-e205de
+2026-06-09|https://www.watch.impress.co.jp/docs/news/2115199.html
