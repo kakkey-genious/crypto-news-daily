@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>仮想通貨ニュース 2026-06-10 | Crypto News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card-bg: #1e293b;
+        --text: #e2e8f0;
+        --subtext: #94a3b8;
+        --border: #334155;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 40px 20px 32px;
+      text-align: center;
+    }
+
+    header .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+    header .back-link:hover { color: #fff; }
+
+    header h1 {
+      font-size: clamp(1.5rem, 4vw, 2.25rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    header .date-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border-radius: 20px;
+      padding: 4px 16px;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.9);
+    }
+
+    main {
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 32px 16px;
+      flex: 1;
+    }
+
+    .section-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--subtext);
+      margin-bottom: 20px;
+    }
+
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .news-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+      transform: translateY(-2px);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--header-bg);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+      font-size: 0.78rem;
+      color: var(--subtext);
+      padding-left: 52px;
+    }
+
+    .meta-source::before { content: "📰 "; }
+    .meta-date::before { content: "📅 "; }
+
+    .card-summary {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 14px;
+      padding-left: 52px;
+    }
+
+    .card-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding-left: 52px;
+    }
+
+    .card-tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .tag-blue   { background: #3b82f6; }
+    .tag-purple { background: #8b5cf6; }
+    .tag-red    { background: #ef4444; }
+    .tag-green  { background: #10b981; }
+
+    .card-reason {
+      font-size: 0.75rem;
+      color: var(--subtext);
+      font-style: italic;
+      max-width: 420px;
+    }
+
+    .read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: 12px;
+      padding-left: 52px;
+      color: #3b82f6;
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      transition: opacity 0.2s;
+    }
+    .read-more:hover { opacity: 0.75; }
+
+    footer {
+      background: var(--card-bg);
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    @media (max-width: 480px) {
+      .card-meta, .card-summary, .card-footer, .read-more {
+        padding-left: 0;
+      }
+      .card-header {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="back-link">← 一覧に戻る</a>
+  <h1>💰 今日の仮想通貨ニュース</h1>
+  <span class="date-badge">2026年6月10日（水）</span>
+</header>
+
+<main>
+  <p class="section-title">本日のトップ5ニュース</p>
+
+  <!-- Card 1 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <h2 class="card-title">今サイクル初の歴史的底値シグナル2つが同時点灯——ビットコインは底打ちか？</h2>
+    </div>
+    <div class="card-meta">
+      <span class="meta-source">BeInCrypto</span>
+      <span class="meta-date">2026年6月9日</span>
+    </div>
+    <p class="card-summary">
+      ビットコインが59,100ドルの安値から反発する中、今サイクルで初めて2つの極めて稀な底値シグナルが同時に点灯した。RSIが16〜22台と深い売られ過ぎ水準を示し、Fear &amp; Greedインデックスも「極度の恐怖」圏内にある。アナリストはデスクロス確認後に現れる稀少な反転指標として注目し、過去の類似局面ではいずれも大幅な上昇が見られたと指摘。ただし反発は長期ブルサイクルの再起動ではなく、まず63,000〜66,000ドルのレジスタンスを超えられるかが焦点となる。
+    </p>
+    <div class="card-footer">
+      <div class="card-tags">
+        <span class="tag tag-blue">相場動向</span>
+      </div>
+      <p class="card-reason">選定理由: BTCが歴史的な安値圏で反発の兆し。投資家の注目度が最も高い局面。</p>
+    </div>
+    <a href="https://beincrypto.com/two-rarest-bitcoin-bottom-signals-flashing/" class="read-more" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Card 2 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <h2 class="card-title">DeFi史上最大調達：MorphoがParadigm・a16z・Ribbitから1.75億ドルを確保、グローバル信用市場のオンチェーン化へ</h2>
+    </div>
+    <div class="card-meta">
+      <span class="meta-source">The Block</span>
+      <span class="meta-date">2026年6月9日</span>
+    </div>
+    <p class="card-summary">
+      DeFiレンディングプロトコルMorphoがParadigm、a16z crypto、Ribbit Capitalの共同リードで1.75億ドルの資金調達を完了。評価額は最大20億ドルでDeFi史上最大規模の調達となった。現在11億ドル超の預金残高を誇り、Coinbase・Binance・Krakenなどを機関ユーザーに持つ。今回の資金は機関向けのプログラマブル信用商品開発に充当され、従来の金融機関と協調したオープン信用ネットワークの構築を目指す。
+    </p>
+    <div class="card-footer">
+      <div class="card-tags">
+        <span class="tag tag-purple">DeFi/Web3</span>
+      </div>
+      <p class="card-reason">選定理由: DeFi史上最大の機関調達。オンチェーン金融インフラの進化を示す重要ニュース。</p>
+    </div>
+    <a href="https://www.theblock.co/post/404111/morpho-raises-175m-paradigm-a16z-crypto-ribbit-capital" class="read-more" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Card 3 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <h2 class="card-title">暗号資産業界60社以上のCEOが連名でCLARITY法の上院採決を緊急要求、開発者保護条項の維持を強く訴え</h2>
+    </div>
+    <div class="card-meta">
+      <span class="meta-source">Bitcoin Magazine</span>
+      <span class="meta-date">2026年6月9日</span>
+    </div>
+    <p class="card-summary">
+      Coinbase・Ripple Labsら業界大手60社以上のCEOが上院指導部（Thune院内総務・Schumer少数党院内総務）に連名書簡を送付し、デジタル資産市場構造法（CLARITY法）の本会議採決を緊急要請した。法案は銀行委員会で15対9の賛成多数で可決されたが、農業委員会との管轄権調整が残っており、60票のフィリバスター閾値突破が最大の壁。夏季休会前に約8週間の審議時間しか残っておらず、業界は米国を「暗号資産の首都」にするためにも早期成立を求めている。
+    </p>
+    <div class="card-footer">
+      <div class="card-tags">
+        <span class="tag tag-red">規制・政策</span>
+      </div>
+      <p class="card-reason">選定理由: 米国の仮想通貨規制の根幹となる法案の動向。業界全体に影響する重要ニュース。</p>
+    </div>
+    <a href="https://bitcoinmagazine.com/news/crypto-leaders-urge-to-pass-clarity-act" class="read-more" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Card 4 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <h2 class="card-title">ウェスタンユニオン、Solana上でUSDPTステーブルコインを正式ローンチ——送金インフラのブロックチェーン化が加速</h2>
+    </div>
+    <div class="card-meta">
+      <span class="meta-source">Decrypt</span>
+      <span class="meta-date">2026年6月4日</span>
+    </div>
+    <p class="card-summary">
+      送金大手ウェスタンユニオンが米連邦認可暗号銀行Anchorage Digital Bank発行のステーブルコインUSDPTをSolana上で正式ローンチ。Fireblocksがウォレット・決済インフラを担当し、グローバルエージェントネットワークの24時間365日リアルタイム決済を実現する。大手取引所Bybitとのパートナーシップも同時発表し、メキシコ・アルゼンチン・コロンビア・フィリピン向けのコンシューマーアプリ「Stable by Western Union」も6月中にローンチ予定。
+    </p>
+    <div class="card-footer">
+      <div class="card-tags">
+        <span class="tag tag-green">新技術</span>
+      </div>
+      <p class="card-reason">選定理由: 伝統的大手金融機関がブロックチェーン基盤の決済インフラへ移行する象徴的な事例。</p>
+    </div>
+    <a href="https://decrypt.co/366677/western-union-usdpt-stablecoin-solana-anchorage-digital" class="read-more" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+  <!-- Card 5 -->
+  <article class="news-card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <h2 class="card-title">Citiがトークン化株式市場5.5兆ドルを予測——SolanaがスポットBEI取引量の97%を占める圧倒的優位を確立</h2>
+    </div>
+    <div class="card-meta">
+      <span class="meta-source">ETH News</span>
+      <span class="meta-date">2026年6月9日</span>
+    </div>
+    <p class="card-summary">
+      Citiが2030年までにトークン化株式市場が5.5兆ドル規模に拡大するとのレポートを発表。現在Solanaがトークン化株式のスポット取引量の97%を占め、オンチェーン保有者数も初めて20万人を突破した。SoFiが全米初の規制準拠ステーブルコインSoFiUSDをSolana上に展開し、Cash AppもUSDCのSolanaサポートを追加。機関投資家によるRWA（リアルワールドアセット）のトークン化が本格加速しており、Solanaが中心的プラットフォームとして台頭している。
+    </p>
+    <div class="card-footer">
+      <div class="card-tags">
+        <span class="tag tag-purple">DeFi/Web3</span>
+      </div>
+      <p class="card-reason">選定理由: RWAトークン化の大きなトレンドと、Solanaエコシステムの躍進を示す重要ニュース。</p>
+    </div>
+    <a href="https://ethnews.com/citi-says-tokenized-equities-to-hit-5-5t-why-solana-is-the-biggest-winner/" class="read-more" target="_blank" rel="noopener">元記事を読む →</a>
+  </article>
+
+</main>
+
+<footer>
+  <p>Crypto News Daily &middot; Generated by Claude &middot; <a href="https://github.com/kakkey-genious" style="color:inherit;">kakkey-genious</a></p>
+</footer>
+
+</body>
+</html>
