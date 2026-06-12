@@ -1,8 +1,3 @@
-2026-06-04|https://www.coindesk.com/markets/2026/06/03/bitcoin-hits-power-law-level-low-that-historically-precedes-a-rebound
-2026-06-04|https://www.theblock.co/post/403450/blockchain-association-letter-senate
-2026-06-04|https://www.cryptotimes.io/2026/06/02/stocks-meet-solana-backpack-unveils-new-trading-bridge/
-2026-06-04|https://unchainedcrypto.com/cftc-opens-us-crypto-perpetuals-door-with-first-approvals-at-kalshi-and-coinbase/
-2026-06-04|https://cryptobriefing.com/solana-token-unlocks-june-2026/
 2026-06-05|https://cryptobriefing.com/bitcoin-falls-below-64000-triggers-11b-in-liquidations/
 2026-06-05|https://coinmarketcap.com/academy/article/cftc-clears-bitcoin-perpetual-futures
 2026-06-05|https://cryptorank.io/news/feed/9b546-rwa-tokenization-defi-composability-gap
@@ -38,3 +33,8 @@
 2026-06-11|https://www.blockhead.co/2026/06/10/japans-megabanks-move-toward-joint-stablecoin-issuance/
 2026-06-11|https://finance.yahoo.com/news/ethereum-price-swells-fusaka-upgrade-051052394.html
 2026-06-11|https://unchainedcrypto.com/morpho-raises-175-million-co-led-by-paradigm-a16z-crypto-and-ribbit-capital-to-build-open-credit-network/
+2026-06-12|https://www.coindesk.com/markets/2026/06/11/blackrock-s-income-paying-bitcoin-etf-nears-launch-at-a-fee-that-undercuts-rivals
+2026-06-12|https://www.coindesk.com/policy/2026/06/11/japan-passes-sweeping-bill-regulating-crypto-like-stocks-with-lower-taxes-to-drive-growth
+2026-06-12|https://www.coindesk.com/business/2026/06/11/canton-network-developer-raises-usd355-million-to-bring-wall-street-onchain
+2026-06-12|https://decrypt.co/370691/tether-nvidia-amazon-back-neura-robotics-1-4-billion-funding-round
+2026-06-12|https://decrypt.co/370746/morning-minute-citadel-cautions-against-the-ai-trade-ahead-of-spacex-ipo
