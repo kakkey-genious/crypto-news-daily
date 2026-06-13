@@ -1,8 +1,3 @@
-2026-06-05|https://cryptobriefing.com/bitcoin-falls-below-64000-triggers-11b-in-liquidations/
-2026-06-05|https://coinmarketcap.com/academy/article/cftc-clears-bitcoin-perpetual-futures
-2026-06-05|https://cryptorank.io/news/feed/9b546-rwa-tokenization-defi-composability-gap
-2026-06-05|https://coinpedia.org/news/ethereum-outlines-2026-glamsterdam-hardfork-eth-still-below-2k/
-2026-06-05|https://home.treasury.gov/news/press-releases/sb0435
 2026-06-06|https://www.nikkei.com/article/DGXZQOGN05CNJ0V00C26A6000000/
 2026-06-06|https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-june-5-2026-prices-continue-their-descent---5-reasons-why-113631165.html
 2026-06-06|https://www.coindesk.com/markets/2026/06/01/aave-overhauls-listing-standards-after-usd230-million-rseth-exploit-exposed-bridge-risks
@@ -38,3 +33,8 @@
 2026-06-12|https://www.coindesk.com/business/2026/06/11/canton-network-developer-raises-usd355-million-to-bring-wall-street-onchain
 2026-06-12|https://decrypt.co/370691/tether-nvidia-amazon-back-neura-robotics-1-4-billion-funding-round
 2026-06-12|https://decrypt.co/370746/morning-minute-citadel-cautions-against-the-ai-trade-ahead-of-spacex-ipo
+2026-06-13|https://intellectia.ai/blog/bitcoin-price-recovery-june-2026
+2026-06-13|https://decrypt.co/370891/metaplanet-acquires-japanese-securities-firm-for-13m-to-launch-bitcoin-yield-products
+2026-06-13|https://www.coindesk.com/markets/2026/06/12/blackrock-files-to-list-its-bitcoin-income-etf-with-expected-debut-next-week
+2026-06-13|https://phemex.com/blogs/solana-price-today-june-2026-sol-alpenglow-upgrade-tvl-2030-outlook
+2026-06-13|https://beincrypto.com/xrp-performs-better-than-bitcoin-solana-in-falling-market/
