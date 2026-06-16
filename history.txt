@@ -1,8 +1,3 @@
-2026-06-08|https://bitcoinfoundation.org/news/crypto-etfs-news/etf-outflows-june-first-week/
-2026-06-08|https://cryptobriefing.com/house-ways-means-digital-asset-tax-bills/
-2026-06-08|https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain
-2026-06-08|https://finance.yahoo.com/markets/stocks/articles/hut-8-bond-sale-raises-135700968.html
-2026-06-08|https://news.bitcoin.com/solana-posts-8-consecutive-red-months-for-first-time-as-traders-watch-80-support/
 2026-06-09|https://www.cryptotimes.io/2026/06/08/bitcoin-stages-sharp-relief-rally-amid-brutal-correction-from-59k-lows-to-63k-bounce/
 2026-06-09|https://beincrypto.com/bitcoin-etf-outflows-record-streak-june-2026/
 2026-06-09|https://coingape.com/clarity-act-ripple-coinbase-over-crypto-firms-push-senate-floor-vote/
@@ -38,3 +33,8 @@
 2026-06-15|https://crypto.news/sec-approves-t-rowe-price-crypto-etf-with-btc-eth-and-xrp-exposure/
 2026-06-15|https://www.mexc.com/news/1073935
 2026-06-15|https://www.banklesstimes.com/articles/2026/06/12/blackrock-bitcoin-premium-income-etf-could-launch-within-days/
+2026-06-16|https://news.bitcoin.com/blackrock-beats-goldman-to-market-with-bitcoin-income-etf-bita-launching-june-16/
+2026-06-16|https://memeburn.com/bitcoin-reclaims-65000-after-iran-deal-as-fomc-meeting-looms-what-comes-next/
+2026-06-16|https://coinpaprika.com/news/kevin-warsh-first-fomc-meeting-june-2026/
+2026-06-16|https://www.theblock.co/post/403957/uk-fca-proposes-allowing-authorized-funds-to-allocate-up-to-10-to-crypto-etns
+2026-06-16|https://www.gncrypto.news/news/tokenized-rwas-jump-589-june-2026-binance-research/
