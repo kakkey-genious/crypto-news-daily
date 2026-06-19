@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>仮想通貨ニュース 2026年6月19日｜Crypto News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0f172a; --card-bg: #1e293b; --text: #e2e8f0; --subtext: #94a3b8; --border: #334155; }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 48px 20px 36px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: 0.02em; }
+    header p { margin-top: 10px; font-size: 0.95rem; opacity: 0.75; }
+    header .date-label {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 5px 16px;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 36px 16px 60px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--subtext);
+      text-decoration: none;
+      font-size: 0.88rem;
+      margin-bottom: 28px;
+      transition: color 0.15s;
+    }
+    .back-link:hover { color: var(--text); }
+
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 26px;
+      margin-bottom: 20px;
+      transition: box-shadow 0.2s;
+    }
+    .news-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.07); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--header-bg);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .card-title-block { flex: 1; }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.45;
+      margin-bottom: 6px;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .card-source { font-weight: 600; }
+    .card-date::before { content: "· "; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .tag-blue   { background: rgba(59,130,246,0.12);  color: #3b82f6;  border: 1px solid rgba(59,130,246,0.25); }
+    .tag-purple { background: rgba(139,92,246,0.12);  color: #8b5cf6;  border: 1px solid rgba(139,92,246,0.25); }
+    .tag-red    { background: rgba(239,68,68,0.10);   color: #ef4444;  border: 1px solid rgba(239,68,68,0.22); }
+    .tag-green  { background: rgba(16,185,129,0.10);  color: #10b981;  border: 1px solid rgba(16,185,129,0.22); }
+
+    .card-summary {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 14px;
+      opacity: 0.9;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      background: rgba(0,0,0,0.03);
+      border-left: 3px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      .card-reason { background: rgba(255,255,255,0.04); }
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.82rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .card-link:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 0.82rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: inherit; }
+
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.5rem; }
+      .news-card { padding: 18px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💰 今日の仮想通貨ニュース</h1>
+  <p>厳選5本 by kakkey-genious</p>
+  <div class="date-label">2026年6月19日（金曜日）</div>
+</header>
+
+<main>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+
+  <!-- Card 1 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title-block">
+        <div class="card-title">ビットコイン、強い米雇用統計でFRBのタカ派姿勢が強化 — 63,000ドル台に急落</div>
+        <div class="card-meta">
+          <span class="card-source">CryptoNews</span>
+          <span class="card-date">2026年6月19日</span>
+          <span class="tag tag-blue">相場動向</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      強い米雇用統計を受けFRBのタカ派姿勢が強化され、利下げ期待が後退。ビットコインは63,000ドル付近まで約3%下落し、レバレッジロングポジションが大量に清算された。6月17日のFOMC会合でFRBが政策金利を3.50〜3.75%に据え置きつつもタカ派的なドットプロットを示した流れが継続。$62,400を明確に下抜けると$59,000台再試験のリスクが高まるとアナリストは警戒している。
+    </p>
+    <div class="card-reason">選定理由: FOMC後の相場反応に加え、雇用統計という新たな下落要因が加わり、ビットコイン投資家が最も注目すべき価格動向ニュース。</div>
+    <a class="card-link" href="https://cryptonews.net/news/bitcoin/33030373/" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title-block">
+        <div class="card-title">マルタ金融規制当局、DeFiとDAOをMiCA枠組みに取り込む公開協議を開始</div>
+        <div class="card-meta">
+          <span class="card-source">CoinDesk</span>
+          <span class="card-date">2026年6月18日</span>
+          <span class="tag tag-red">規制・政策</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      マルタ金融サービス局（MFSA）がDeFiプロトコルとDAOをEUのMiCA（暗号資産市場規制）の枠組みに取り込むための公開協議を開始。「分散化は二項対立ではなくスペクトラム（連続体）として評価すべき」とし、新たな法的定義「ソフトウェアベース組織」を提案。ほとんどのDeFiプロジェクトはガバナンスとアップグレード制御で集中的な特徴を保持していると指摘。協議期間は7月10日まで。
+    </p>
+    <div class="card-reason">選定理由: EUでのDeFi規制の先行事例としてマルタが注目される動き。MiCA適用範囲の拡大はDeFiプロジェクト全体に影響する重要な政策ニュース。</div>
+    <a class="card-link" href="https://www.coindesk.com/policy/2026/06/18/malta-s-financial-regulator-explores-bringing-parts-of-defi-under-mica-s-orbit" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title-block">
+        <div class="card-title">オマーン、全ライセンスマイナー参加必須の国家ビットコインマイニングプール「OmanHash」を開設</div>
+        <div class="card-meta">
+          <span class="card-source">Bitcoin Magazine</span>
+          <span class="card-date">2026年6月17日</span>
+          <span class="tag tag-green">新技術</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      オマーン通信情報技術省がFrontier Technologies社との提携のもと国家公認マイニングプール「Omanhash.om」を開設。同国内の全ライセンスマイナーへの参加を義務化した。インフラと流動性はEneGix Globalが提供し、初期段階で約10 EH/sのハッシュレートを集積予定。カザフスタンに続く世界2か国目の国家主導マイニングプールで、7億ドルを超えるマイニングインフラ投資を背景に国家収益の多様化を図る。
+    </p>
+    <div class="card-reason">選定理由: 国家がビットコインマイニングを直接管理する新たなモデルは、グローバルなハッシュレート分布と地政学的リスクに影響を与える注目すべき動向。</div>
+    <a class="card-link" href="https://bitcoinmagazine.com/news/oman-launches-mandatory-bitcoin-mining" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title-block">
+        <div class="card-title">ソラナ上で10億ドルUSDCがミントも、Driftシャットダウンで「流動性だけでは解決できない」DeFiの課題が露呈</div>
+        <div class="card-meta">
+          <span class="card-source">CryptoSlate</span>
+          <span class="card-date">2026年6月18日</span>
+          <span class="tag tag-purple">DeFi/Web3</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      ソラナブロックチェーン上で10億ドル相当のUSDCが新たにミントされた一方、4月に2.7億ドルのエクスプロイト被害を受けたDeFiプラットフォームDriftのシャットダウンが継続。復旧トークンの配布が未完のままユーザーへの影響が長引いており、決済プラットフォームPyraも新規受付停止・カード停止を発表。大量の流動性供給でもプロトコル障害によるユーザー損失は補えないというDeFiの本質的課題を浮き彫りにした。
+    </p>
+    <div class="card-reason">選定理由: 過去最大級のDeFiハック後遺症を追う注目記事。ソラナエコシステムの信頼回復プロセスとDeFiセキュリティのあり方を問う重要なニュース。</div>
+    <a class="card-link" href="https://cryptoslate.com/solanas-1b-usdc-mint-shows-what-liquidity-still-cannot-fix-for-users/" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title-block">
+        <div class="card-title">LINE NEXTが韓国決済大手Danalと提携 — 円建てステーブルコインJPYCによるクロスボーダー決済を推進</div>
+        <div class="card-meta">
+          <span class="card-source">Ledger Insights</span>
+          <span class="card-date">2026年6月18日</span>
+          <span class="tag tag-red">規制・政策</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      LINE NEXTが韓国の大手決済企業Danalと戦略的業務提携を締結し、日本円建てステーブルコイン「JPYC」を活用したアジア向けクロスボーダー決済サービスの実現を目指す。韓国・インドネシア・タイ・台湾などへの展開を予定。LINE NEXTのステーブルコインウォレット「Unifi」経由でJPYCが利用可能になり、5月時点でユーザー数は1万8,000件、累計発行額は25億円超に達している。日韓ステーブルコイン連携の先行事例として注目。
+    </p>
+    <div class="card-reason">選定理由: 日本発のステーブルコインが国際決済インフラとして実装段階に入った先進的な事例。アジア地域のステーブルコイン普及と規制動向を示すニュース。</div>
+    <a class="card-link" href="https://www.ledgerinsights.com/jpyc-partners-with-korean-firm-for-stablecoin-exploration/" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+</main>
+
+<footer>
+  Crypto News Daily &middot; Generated by Claude &middot; <a href="https://github.com/kakkey-genious">kakkey-genious</a>
+</footer>
+
+</body>
+</html>

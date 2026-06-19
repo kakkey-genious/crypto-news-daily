@@ -1,8 +1,3 @@
-2026-06-11|https://www.latestly.com/business/bitcoin-price-today-june-11-2026-btc-price-stable-around-usd-61996-as-traders-await-federal-reserve-policy-direction-7468123.html
-2026-06-11|https://www.benzinga.com/crypto/cryptocurrency/26/06/53049901/spacex-ipo-accessible-via-bybit-tokenized-offering-what-to-know
-2026-06-11|https://www.blockhead.co/2026/06/10/japans-megabanks-move-toward-joint-stablecoin-issuance/
-2026-06-11|https://finance.yahoo.com/news/ethereum-price-swells-fusaka-upgrade-051052394.html
-2026-06-11|https://unchainedcrypto.com/morpho-raises-175-million-co-led-by-paradigm-a16z-crypto-and-ribbit-capital-to-build-open-credit-network/
 2026-06-12|https://www.coindesk.com/markets/2026/06/11/blackrock-s-income-paying-bitcoin-etf-nears-launch-at-a-fee-that-undercuts-rivals
 2026-06-12|https://www.coindesk.com/policy/2026/06/11/japan-passes-sweeping-bill-regulating-crypto-like-stocks-with-lower-taxes-to-drive-growth
 2026-06-12|https://www.coindesk.com/business/2026/06/11/canton-network-developer-raises-usd355-million-to-bring-wall-street-onchain
@@ -38,3 +33,8 @@
 2026-06-18|https://www.coindesk.com/tech/2026/06/16/ethereum-s-biggest-protocol-overhaul-in-years-moves-into-its-final-development-stage
 2026-06-18|https://cryptobriefing.com/clarity-act-senate-crypto-regulation/
 2026-06-18|https://www.coindesk.com/tech/2026/06/17/live-markets-a-bitcoin-bottom-signal-flashed-as-holders-absorbed-125-000-btc-in-june
+2026-06-19|https://cryptonews.net/news/bitcoin/33030373/
+2026-06-19|https://www.coindesk.com/policy/2026/06/18/malta-s-financial-regulator-explores-bringing-parts-of-defi-under-mica-s-orbit
+2026-06-19|https://bitcoinmagazine.com/news/oman-launches-mandatory-bitcoin-mining
+2026-06-19|https://cryptoslate.com/solanas-1b-usdc-mint-shows-what-liquidity-still-cannot-fix-for-users/
+2026-06-19|https://www.ledgerinsights.com/jpyc-partners-with-korean-firm-for-stablecoin-exploration/
