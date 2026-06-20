@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>仮想通貨ニュース 2026年6月20日｜Crypto News Daily</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --subtext: #6b7280;
+      --border: #e5e7eb;
+      --header-bg: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0f172a; --card-bg: #1e293b; --text: #e2e8f0; --subtext: #94a3b8; --border: #334155; }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: #fff;
+      padding: 48px 20px 36px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: 0.02em; }
+    header p { margin-top: 10px; font-size: 0.95rem; opacity: 0.75; }
+    header .date-label {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 5px 16px;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      font-size: 0.85rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 36px 16px 60px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--subtext);
+      text-decoration: none;
+      font-size: 0.88rem;
+      margin-bottom: 28px;
+      transition: color 0.15s;
+    }
+    .back-link:hover { color: var(--text); }
+
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 26px;
+      margin-bottom: 20px;
+      transition: box-shadow 0.2s;
+    }
+    .news-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.07); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .card-number {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--header-bg);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
+    .card-title-block { flex: 1; }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.45;
+      margin-bottom: 6px;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--subtext);
+    }
+
+    .card-source { font-weight: 600; }
+    .card-date::before { content: "· "; }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .tag-blue   { background: rgba(59,130,246,0.12);  color: #3b82f6;  border: 1px solid rgba(59,130,246,0.25); }
+    .tag-purple { background: rgba(139,92,246,0.12);  color: #8b5cf6;  border: 1px solid rgba(139,92,246,0.25); }
+    .tag-red    { background: rgba(239,68,68,0.10);   color: #ef4444;  border: 1px solid rgba(239,68,68,0.22); }
+    .tag-green  { background: rgba(16,185,129,0.10);  color: #10b981;  border: 1px solid rgba(16,185,129,0.22); }
+
+    .card-summary {
+      font-size: 0.92rem;
+      color: var(--text);
+      margin-bottom: 14px;
+      opacity: 0.9;
+    }
+
+    .card-reason {
+      font-size: 0.8rem;
+      color: var(--subtext);
+      background: rgba(0,0,0,0.03);
+      border-left: 3px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      .card-reason { background: rgba(255,255,255,0.04); }
+    }
+
+    .card-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.82rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .card-link:hover { text-decoration: underline; }
+
+    footer {
+      text-align: center;
+      padding: 24px 16px;
+      font-size: 0.82rem;
+      color: var(--subtext);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: inherit; }
+
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.5rem; }
+      .news-card { padding: 18px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💰 今日の仮想通貨ニュース</h1>
+  <p>厳選5本 by kakkey-genious</p>
+  <div class="date-label">2026年6月20日（土曜日）</div>
+</header>
+
+<main>
+  <a class="back-link" href="index.html">← 一覧に戻る</a>
+
+  <!-- Card 1 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">1</div>
+      <div class="card-title-block">
+        <div class="card-title">ビットコイン、採算コスト以下5ヶ月連続 — イラン和平交渉の崩壊で$62,000台へ一段安</div>
+        <div class="card-meta">
+          <span class="card-source">CoinDesk</span>
+          <span class="card-date">2026年6月19日</span>
+          <span class="tag tag-blue">相場動向</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      ビットコインはJPMorganが試算する採算分岐点の約7万8,000ドルを5ヶ月連続で下回る水準に留まり、$62,201まで下落。イスラエルが南レバノンへの空爆を再開したことでイランが和平協議への代表団派遣を拒否し、市場を下支えする唯一のマクロ要因が消滅した。ETHは-3.26%の$1,687、XRPは-4.61%の$1.12に。スマートコントラクト系・DeFiコインが下落を牽引し、ビットコインドミナンスは58%を記録している。
+    </p>
+    <div class="card-reason">選定理由: 地政学リスクと採掘コストの両面からBTC相場が圧迫される状況を示す最重要ニュース。週末の相場動向を占う上でも注目度が高い。</div>
+    <a class="card-link" href="https://www.coindesk.com/markets/2026/06/19/live-markets-bitcoin-has-traded-below-its-mining-cost-for-five-months-squeezing-miners" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">2</div>
+      <div class="card-title-block">
+        <div class="card-title">JPMorgan警告: マイナーの20%が採算割れ — ビットコイン採掘難易度も2026年2番目となる10%大幅下落</div>
+        <div class="card-meta">
+          <span class="card-source">Bitcoin Magazine</span>
+          <span class="card-date">2026年6月19日</span>
+          <span class="tag tag-blue">相場動向</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      JPMorganのレポートは、BTC生産コストを約7万8,000ドルと試算しつつ現在の市場価格が5ヶ月連続で採算分岐点を下回ると指摘。採掘難易度は10.09%下落し2026年で2番目の大幅調整を記録（ブロック高953,568）し、これは歴史上11番目の大きな下落となった。上場マイニング企業は2026年第1四半期だけで3.2万BTC超を売却しており、2025年通年を超える規模となった。
+    </p>
+    <div class="card-reason">選定理由: ビットコインのハッシュレートと供給サイドのダイナミクスを理解するうえで不可欠なデータ。マイナー売り圧力の継続がBTC相場の回復を阻む構造的要因となりうる。</div>
+    <a class="card-link" href="https://bitcoinmagazine.com/news/jpmorgan-bitcoin-mining-costs-worsened" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">3</div>
+      <div class="card-title-block">
+        <div class="card-title">モルガン・スタンレー、ステーキング付きETH・SOL現物ETFをSECへ修正申請 — 業界最低水準0.14%の手数料を設定</div>
+        <div class="card-meta">
+          <span class="card-source">CryptoTimes</span>
+          <span class="card-date">2026年6月19日</span>
+          <span class="tag tag-red">規制・政策</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      モルガン・スタンレーはSECへETF修正申請書を提出し、ティッカー「MSSE（ETH）」「MSOL（SOL）」で米国最低コストの現物ETFを計画。両ファンドはCoinbase・Galaxy・Figmentをステーキングサービス提供者に指定し、ステーキング報酬の95%を投資家に還元する仕組みを採用。1月に初回申請後、第2回修正で手数料を0.14%に設定し競合他社を大幅に下回る水準を実現した。
+    </p>
+    <div class="card-reason">選定理由: 大手金融機関によるETH・SOL ETF競争激化の象徴であり、機関投資家のオルトコイン参入加速を示す規制動向として重要。</div>
+    <a class="card-link" href="https://www.cryptotimes.io/2026/06/19/morgan-stanley-files-for-spot-ethereum-etf-with-staking" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">4</div>
+      <div class="card-title-block">
+        <div class="card-title">マイクロソフトが「CryptoBandits」マルウェアを警告 — USBで拡散しクリップボードのウォレットアドレスを攻撃者のものに差し替え</div>
+        <div class="card-meta">
+          <span class="card-source">CoinDesk</span>
+          <span class="card-date">2026年6月19日</span>
+          <span class="tag tag-green">新技術</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      マイクロソフトは2026年2月から活動中の「Trojan:Win32/CryptoBandits.A」を確認・警告。USBのLNKショートカットから感染しTorネットワーク経由でC2と通信。500msごとにクリップボードを監視し、BTC・XMR・TRONのウォレットアドレスを攻撃者のものへサイレントに差し替える。秘密鍵やリカバリーフレーズも窃取対象で、送金操作中にアドレスが置換されても被害者は気づきにくい。
+    </p>
+    <div class="card-reason">選定理由: ハードウェアウォレットユーザーを含む広範な仮想通貨保有者が狙われる危険な脅威。感染経路がUSBという身近なベクターで拡散スピードが高く、今すぐ確認すべきセキュリティ情報。</div>
+    <a class="card-link" href="https://www.coindesk.com/tech/2026/06/19/microsoft-found-malware-that-hijacks-crypto-wallets-and-spreads-through-usb-sticks" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="news-card">
+    <div class="card-header">
+      <div class="card-number">5</div>
+      <div class="card-title-block">
+        <div class="card-title">6月第3週に6.7億ドル超のトークンアンロック集中 — LayerZero・Spark・Kaitoが主導しDeFi市場に売り圧</div>
+        <div class="card-meta">
+          <span class="card-source">BeInCrypto</span>
+          <span class="card-date">2026年6月19日</span>
+          <span class="tag tag-purple">DeFi/Web3</span>
+        </div>
+      </div>
+    </div>
+    <p class="card-summary">
+      6月第3週（6月16〜22日）のトークンアンロック総額は6.7億ドル超に達し、LayerZero・Spark・Kaitoが主要プロジェクトとして先導。大規模アンロックはロック解除後の初期保有者による売り圧力をもたらすリスクがあり、DeFiエコシステム全体の流動性と価格に影響が及ぶ可能性がある。現在のBTC下落局面と重なり、アルトコイン市場への波及に市場関係者は警戒を強めている。
+    </p>
+    <div class="card-reason">選定理由: アルトコイン投資家が週次で把握すべき重要なオンチェーンイベント。ビットコイン下落局面でのトークンアンロック集中は相場二段下げのリスク要因となりうる。</div>
+    <a class="card-link" href="https://beincrypto.com/token-unlocks-third-week-of-june-2026/" target="_blank" rel="noopener">元記事を読む →</a>
+  </div>
+
+</main>
+
+<footer>
+  Crypto News Daily &middot; Generated by Claude &middot; <a href="https://github.com/kakkey-genious">kakkey-genious</a>
+</footer>
+
+</body>
+</html>

@@ -1,8 +1,3 @@
-2026-06-12|https://www.coindesk.com/markets/2026/06/11/blackrock-s-income-paying-bitcoin-etf-nears-launch-at-a-fee-that-undercuts-rivals
-2026-06-12|https://www.coindesk.com/policy/2026/06/11/japan-passes-sweeping-bill-regulating-crypto-like-stocks-with-lower-taxes-to-drive-growth
-2026-06-12|https://www.coindesk.com/business/2026/06/11/canton-network-developer-raises-usd355-million-to-bring-wall-street-onchain
-2026-06-12|https://decrypt.co/370691/tether-nvidia-amazon-back-neura-robotics-1-4-billion-funding-round
-2026-06-12|https://decrypt.co/370746/morning-minute-citadel-cautions-against-the-ai-trade-ahead-of-spacex-ipo
 2026-06-13|https://intellectia.ai/blog/bitcoin-price-recovery-june-2026
 2026-06-13|https://decrypt.co/370891/metaplanet-acquires-japanese-securities-firm-for-13m-to-launch-bitcoin-yield-products
 2026-06-13|https://www.coindesk.com/markets/2026/06/12/blackrock-files-to-list-its-bitcoin-income-etf-with-expected-debut-next-week
@@ -38,3 +33,8 @@
 2026-06-19|https://bitcoinmagazine.com/news/oman-launches-mandatory-bitcoin-mining
 2026-06-19|https://cryptoslate.com/solanas-1b-usdc-mint-shows-what-liquidity-still-cannot-fix-for-users/
 2026-06-19|https://www.ledgerinsights.com/jpyc-partners-with-korean-firm-for-stablecoin-exploration/
+2026-06-20|https://www.coindesk.com/markets/2026/06/19/live-markets-bitcoin-has-traded-below-its-mining-cost-for-five-months-squeezing-miners
+2026-06-20|https://bitcoinmagazine.com/news/jpmorgan-bitcoin-mining-costs-worsened
+2026-06-20|https://www.cryptotimes.io/2026/06/19/morgan-stanley-files-for-spot-ethereum-etf-with-staking
+2026-06-20|https://www.coindesk.com/tech/2026/06/19/microsoft-found-malware-that-hijacks-crypto-wallets-and-spreads-through-usb-sticks
+2026-06-20|https://beincrypto.com/token-unlocks-third-week-of-june-2026/
