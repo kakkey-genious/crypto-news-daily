@@ -1,8 +1,3 @@
-2026-06-13|https://intellectia.ai/blog/bitcoin-price-recovery-june-2026
-2026-06-13|https://decrypt.co/370891/metaplanet-acquires-japanese-securities-firm-for-13m-to-launch-bitcoin-yield-products
-2026-06-13|https://www.coindesk.com/markets/2026/06/12/blackrock-files-to-list-its-bitcoin-income-etf-with-expected-debut-next-week
-2026-06-13|https://phemex.com/blogs/solana-price-today-june-2026-sol-alpenglow-upgrade-tvl-2030-outlook
-2026-06-13|https://beincrypto.com/xrp-performs-better-than-bitcoin-solana-in-falling-market/
 2026-06-14|https://www.interactivecrypto.com/bitcoin-s-64-102-rebound-etf-inflows-and-oversold-rsi-hint-at-fragile-recovery-jun-2026
 2026-06-14|https://thedefiant.io/news/regulation/cftc-approves-first-us-regulated-bitcoin-perpetual-futures
 2026-06-14|https://thedefiant.io/news/blockchains/solana-alpenglow-upgrade-secures-approval-but-faces-challenges
@@ -38,3 +33,8 @@
 2026-06-20|https://www.cryptotimes.io/2026/06/19/morgan-stanley-files-for-spot-ethereum-etf-with-staking
 2026-06-20|https://www.coindesk.com/tech/2026/06/19/microsoft-found-malware-that-hijacks-crypto-wallets-and-spreads-through-usb-sticks
 2026-06-20|https://beincrypto.com/token-unlocks-third-week-of-june-2026/
+2026-06-21|https://cc.minkabu.jp/column/5161
+2026-06-21|https://unchainedcrypto.com/coinbase-enters-the-tokenized-stock-race-with-11-backed-onchain-shares-as-part-of-a-sweeping-everything-exchange-push/
+2026-06-21|https://www.theblock.co/post/405271/ethereum-foundation-co-exec-director-board-member-hsiao-wei-wang-steps-down
+2026-06-21|https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule
+2026-06-21|https://www.cryptotimes.io/2026/06/20/cardone-capital-stacks-another-282-btc/
