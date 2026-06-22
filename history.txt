@@ -1,8 +1,3 @@
-2026-06-14|https://www.interactivecrypto.com/bitcoin-s-64-102-rebound-etf-inflows-and-oversold-rsi-hint-at-fragile-recovery-jun-2026
-2026-06-14|https://thedefiant.io/news/regulation/cftc-approves-first-us-regulated-bitcoin-perpetual-futures
-2026-06-14|https://thedefiant.io/news/blockchains/solana-alpenglow-upgrade-secures-approval-but-faces-challenges
-2026-06-14|https://crypto.news/sui-launches-privacy-feature-that-keeps-regulators-in-the-loop/
-2026-06-14|https://www.analyticsinsight.net/news/xrp-price-today-xrp-etfs-draw-inflows-as-bitcoin-funds-face-fresh-outflows
 2026-06-15|https://cryptopotato.com/bitcoin-price-jumps-above-65k-as-trump-announces-official-deal-with-iran/
 2026-06-15|https://cryptonews.net/news/finance/32994278/
 2026-06-15|https://crypto.news/sec-approves-t-rowe-price-crypto-etf-with-btc-eth-and-xrp-exposure/
@@ -38,3 +33,8 @@
 2026-06-21|https://www.theblock.co/post/405271/ethereum-foundation-co-exec-director-board-member-hsiao-wei-wang-steps-down
 2026-06-21|https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule
 2026-06-21|https://www.cryptotimes.io/2026/06/20/cardone-capital-stacks-another-282-btc/
+2026-06-22|https://finance.yahoo.com/markets/crypto/articles/bitcoin-network-activity-erupts-iran-233500899.html
+2026-06-22|https://cryptonews.com/news/bitgo-ceo-mica-stablecoin-crisis-warning/
+2026-06-22|https://crypto.news/franklin-templeton-bitcoin-drip-etf/
+2026-06-22|https://blockworks.co/news/lido-v3-staking-developments
+2026-06-22|https://bitcoinist.com/eth-btc-ratio-falls-back-to-early-2023-levels-as-traders-debate-ethereum-value/
